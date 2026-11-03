@@ -46,5 +46,6 @@ Resultado esperado: cinco pruebas aprobadas. No requieren servidores activos y u
 
 `requirements-lock.txt` fija las dependencias del entorno verificado en Windows con Python 3.12.6; otras plataformas o versiones deben validarse por separado. Alternativamente, instale `requirements-dev.txt` para resolver las dependencias transitivas compatibles.
 
-## Estado de entrega
-Preparación local, sin publicación ni despliegue. No se incluyen bases de datos, entornos virtuales ni capturas simuladas. La revisión técnica no sustituye la comprobación de la guía oficial, que no está adjunta a esta copia. No se atribuyen contribuciones a integrantes sin evidencia.
+## Ejecución local
+
+El código está disponible en GitHub para su descarga y ejecución local. Las aplicaciones utilizan datos ficticios y escuchan exclusivamente en `127.0.0.1`, en los puertos 5000 y 5001. Las bases de datos se crean al iniciar las aplicaciones y el entorno virtual se prepara durante la instalación; ninguno forma parte del repositorio.
