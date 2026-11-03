@@ -1,0 +1,12 @@
+Entorno: Windows, Python 3.12.6, pytest 9.2.0. Se omitieron rutas locales del equipo.
+============================= test session starts =============================
+cachedir: .pytest_cache
+collecting ... collected 5 items
+
+tests/test_laboratorio.py::PruebaLaboratorio::test_busqueda_inyeccion_expone_solo_en_vulnerable PASSED [ 20%]
+tests/test_laboratorio.py::PruebaLaboratorio::test_busqueda_ordinaria_funciona_en_ambas PASSED [ 40%]
+tests/test_laboratorio.py::PruebaLaboratorio::test_inyeccion_solo_engana_a_vulnerable PASSED [ 60%]
+tests/test_laboratorio.py::PruebaLaboratorio::test_login_falso_falla_en_ambas PASSED [ 80%]
+tests/test_laboratorio.py::PruebaLaboratorio::test_login_legitimo_funciona_en_ambas PASSED [100%]
+
+============================== 5 passed in 0.61s ==============================

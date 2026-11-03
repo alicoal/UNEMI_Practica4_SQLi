@@ -1,0 +1,5 @@
+{"escenario": "Login válido", "http": 200, "respuesta": {"autenticado": true, "modo": "vulnerable", "usuario": "alicia_demo"}}
+{"escenario": "Login inválido", "http": 200, "respuesta": {"autenticado": false, "modo": "vulnerable", "usuario": null}}
+{"escenario": "Login con SQLi de demostración", "http": 200, "respuesta": {"autenticado": true, "modo": "vulnerable", "usuario": "alicia_demo"}}
+{"escenario": "Búsqueda ordinaria", "http": 200, "respuesta": {"modo": "vulnerable", "registros": [{"id": 1, "rol": "estudiante", "usuario": "alicia_demo"}], "total": 1}}
+{"escenario": "Búsqueda con SQLi de demostración", "http": 200, "respuesta": {"modo": "vulnerable", "registros": [{"id": 1, "rol": "estudiante", "usuario": "alicia_demo"}, {"id": 2, "rol": "docente", "usuario": "bruno_demo"}, {"id": 3, "rol": "laboratorio", "usuario": "carla_demo"}], "total": 3}}

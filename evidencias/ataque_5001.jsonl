@@ -1,0 +1,5 @@
+{"escenario": "Login válido", "http": 200, "respuesta": {"autenticado": true, "modo": "protegido", "usuario": "alicia_demo"}}
+{"escenario": "Login inválido", "http": 200, "respuesta": {"autenticado": false, "modo": "protegido", "usuario": null}}
+{"escenario": "Login con SQLi de demostración", "http": 200, "respuesta": {"autenticado": false, "modo": "protegido", "usuario": null}}
+{"escenario": "Búsqueda ordinaria", "http": 200, "respuesta": {"modo": "protegido", "registros": [{"id": 1, "rol": "estudiante", "usuario": "alicia_demo"}], "total": 1}}
+{"escenario": "Búsqueda con SQLi de demostración", "http": 200, "respuesta": {"modo": "protegido", "registros": [], "total": 0}}
